@@ -2,7 +2,6 @@
   "name": "ember-glitch-integration",
   "version": "1.0.0",
   "description": "Small tool to update Glitch so Ember apps work properly",
-  "main": "index.js",
   "bin": {
     "ember-glitch-integration": "index.js"
   },
