@@ -24,7 +24,7 @@ async function updateGitRepo() {
   try {
     await execa("git", ["reset", "--hard", `v${version}`]);
   } catch (e) {
-    console.error("Version could not be found. Make sure it is a released version of ember-cli");
+    console.error(`Version "${version}" could not be found. Make sure it is a released version of ember-cli`);
     process.exit(1);
   }
 }
