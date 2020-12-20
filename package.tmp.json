@@ -1,0 +1,26 @@
+{
+  "name": "ember-glitch-integration",
+  "version": "1.0.0",
+  "description": "Small tool to update Glitch so Ember apps work properly",
+  "main": "index.js",
+  "bin": {
+    "ember-glitch-integration": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js -p 4200",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locks/ember-glitch-integration.git"
+  },
+  "author": "locks <rokusu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/locks/ember-glitch-integration/issues"
+  },
+  "homepage": "https://github.com/locks/ember-glitch-integration#readme",
+  "dependencies": {
+    "execa": "^5.0.0"
+  }
+}
